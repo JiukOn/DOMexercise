@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#img {
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons-group {
+    margin-top: 20px;
+}
+
+.btn11, .btn22, .btn33 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid #000;
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #000;
+}
+
+
+#btn1:hover, #btn2:hover, #btn3:hover {
+    background-color: #777777;
+}
